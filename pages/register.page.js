@@ -36,6 +36,7 @@ class RegistrationPage extends BasePage {
         await this.recapcha.click();
         await this.btnSubmit.click();
     }
+
     open() {
         return super.open('/');
     }

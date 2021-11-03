@@ -1,9 +1,11 @@
+const email = Math.random().toFixed(6) + '@gmail.com';
+
 const user = {
     zipCodeWrong: "11111",
     zipCodeCorrect: "11230",
     firstName: "Tom",
     lastName: "Smith",
-    email: "tomsmith@gmail.com",
+    email: email,
     username: "TomSmith",
     password: "T1o2m3s4",
     confirmPassword: "T1o2m3s4"
