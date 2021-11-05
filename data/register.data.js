@@ -6,7 +6,7 @@ const user = {
     firstName: "Tom",
     lastName: "Smith",
     email: email,
-    username: "ToSmith",
+    username: "SmithTo1111",
     password: "T1o2m3s4",
     confirmPassword: "T1o2m3s4"
 }

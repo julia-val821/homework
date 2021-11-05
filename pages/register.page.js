@@ -13,7 +13,7 @@ class RegistrationPage extends BasePage {
     get inputUserName () { return $('#Customer_LoginName')}
     get inputPassword () { return $('#Password') }
     get inputConfirmPassword () { return $('#ConfirmPassword')}
-    get recapcha () { return $('.recaptcha-checkbox-border') }
+    get recaptcha () { return $('.recaptcha-checkbox-border') }
     get btnSubmit () { return $('#submit')}
     get notification () { return $('.toast-message')}
 
@@ -33,7 +33,7 @@ class RegistrationPage extends BasePage {
         await this.inputUserName.setValue(username);
         await this.inputPassword.setValue(password);
         await this.inputConfirmPassword.setValue(confirmPassword);
-        await this.recapcha.click();
+        await this.recaptcha.click();
         await this.btnSubmit.click();
     }
 

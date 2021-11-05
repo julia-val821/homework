@@ -1,6 +1,7 @@
 exports.config = {
     specs: [
-        './specs/**/*.spec.js'
+        './specs/**/*.spec.js',
+       './captcha/**/app.js'
     ],
 
     maxInstances: 1,
